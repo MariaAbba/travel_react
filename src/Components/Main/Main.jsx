@@ -16,7 +16,7 @@ const Main = () => {
               <div key={id} className="singleDestination">
                 { 
                 <div className="imageDiv">
-                  <img src={imgSrc} alt="" />
+                  <img src={imgSrc} alt="destinationImg" />
                 </div>
                 }
               </div>
