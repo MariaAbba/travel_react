@@ -16,11 +16,6 @@
   --cardBG: rgb(225, 225, 235);
 }
 
-// .container {
-//   padding-left: 1.5rem;
-//   padding-right: 1.5rem;
-// }
-
 .home {
   width: 100%;
   position: relative;
@@ -123,15 +118,49 @@
           margin-left: 10px;
         }
 
-        .input[type=range]{
+        .input[type='range'] {
           background: blue;
         }
       }
-      .destinationInput {
+
+      .searchOptions {
+        position: absolute;
+        background: var(--gradientColor);
+        width: max-content;
+        bottom: -0.7rem;
+        column-gap: 0.8rem;
+        padding: 5px 1rem;
+        border-radius: 3rem;
+        left: 50%;
+        transform: translate(-50%);
+        justify-content: center;
+        cursor: pointer;
+
+        &:hover {
+          background: var(--PrimaryColor);
+        }
+
+        .icon {
+          font-size: 18px;
+        }
+
+        span {
+          font-size: 13px;
+        }
       }
-      .dateInput {
-      }
-      .priceInput {
+    }
+
+    .homeFooterIcons {
+      width: 100%;
+      justify-content: space-between;
+      .icon {
+        font-size: 20px;
+        margin: 0 5px;
+        color: var(--whiteColor);
+        font-weight: 600;
+        &:hover {
+          color: var(--PrimaryColor);
+        }
       }
     }
   }

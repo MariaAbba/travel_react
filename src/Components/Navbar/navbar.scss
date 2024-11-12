@@ -16,8 +16,6 @@
   --cardBG: rgb(225, 225, 235);
 }
 
-.navBarSection {
-}
 .header {
   position: fixed;
   display: flex;
@@ -27,12 +25,9 @@
   width: 100%;
   padding: 1rem;
   z-index: 1000;
-   box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+  box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
 }
-.flex {
-}
-.logoDiv {
-}
+
 .logo {
   color: var(--blackColor);
   font-weight: 600;
@@ -45,9 +40,6 @@
     color: var(--PrimaryColor);
     transform: translate(5px);
   }
-}
-
-.navBar {
 }
 
 @media screen and (max-width: 768px) {
@@ -115,9 +107,8 @@
   .icon {
     font-size: 25px;
     color: var(--PrimaryColor);
-     }
-    &:hover.icon {
-      color: var(--SecondaryColor);
-   
+  }
+  &:hover.icon {
+    color: var(--SecondaryColor);
   }
 }

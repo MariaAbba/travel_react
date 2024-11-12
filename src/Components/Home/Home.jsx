@@ -3,6 +3,11 @@ import './home.scss'
 import video from '../../assets/video.mp4'
 import { CiLocationOn } from 'react-icons/ci'
 import { FaFilter } from 'react-icons/fa6'
+import { FaFacebook } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+import { TbApps } from 'react-icons/tb'
+import { BsListTask } from 'react-icons/bs'
+import { FaTripadvisor } from 'react-icons/fa'
 
 const Home = () => {
   return (
@@ -44,7 +49,20 @@ const Home = () => {
           </div>
 
           <div className="searchOptions flex">
-            <FaFilter />
+            <FaFilter className="icon" />
+            <span>MORE FILTERS</span>
+          </div>
+        </div>
+
+        <div className="homeFooterIcons flex">
+          <div className="rightIcons">
+            <FaFacebook className="icon" />
+            <FaInstagram className="icon" />
+            <FaTripadvisor className="icon" />
+          </div>
+          <div className="leftIcons">
+            <BsListTask className="icon" />
+            <TbApps className="icon" />
           </div>
         </div>
       </div>
