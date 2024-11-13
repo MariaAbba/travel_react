@@ -10,6 +10,8 @@ import { SiTripadvisor } from 'react-icons/si'
 import { FaChevronRight } from 'react-icons/fa'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear()
+
   return (
     <section className="footer">
       <div className="videoDiv">
@@ -55,6 +57,7 @@ const Footer = () => {
           </div>
 
           <div className="footerLinks grid">
+            {/* Gr 1 */}
             <div className="linkGroup">
               <span className="groupTitle">OUR AGENCY</span>
 
@@ -79,6 +82,61 @@ const Footer = () => {
                 Payment
               </li>
             </div>
+            {/* Gr 2 */}
+            <div className="linkGroup">
+              <span className="groupTitle">PARTNERS</span>
+
+              <li className="footerList flex">
+                <FaChevronRight className="icon" />
+                Bookings
+              </li>
+              <li className="footerList flex">
+                <FaChevronRight className="icon" />
+                Rent cars
+              </li>
+              <li className="footerList flex">
+                <FaChevronRight className="icon" />
+                Hostel World
+              </li>
+              <li className="footerList flex">
+                <FaChevronRight className="icon" />
+                Trivago
+              </li>
+              <li className="footerList flex">
+                <FaChevronRight className="icon" />
+                TripAdvisor
+              </li>
+            </div>
+            {/* Gr 3 */}
+            <div className="linkGroup">
+              <span className="groupTitle">LAST MINUTE</span>
+
+              <li className="footerList flex">
+                <FaChevronRight className="icon" />
+                London
+              </li>
+              <li className="footerList flex">
+                <FaChevronRight className="icon" />
+                California
+              </li>
+              <li className="footerList flex">
+                <FaChevronRight className="icon" />
+                Indonesia
+              </li>
+              <li className="footerList flex">
+                <FaChevronRight className="icon" />
+                Europe
+              </li>
+              <li className="footerList flex">
+                <FaChevronRight className="icon" />
+                Oceania
+              </li>
+            </div>
+          </div>
+
+          <div className="footerDiv flex">
+            <small>BEST TRAVEL WEBSITE THEME</small>
+            <small>{currentYear}</small>
           </div>
         </div>
       </div>
