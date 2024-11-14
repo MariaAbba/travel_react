@@ -201,7 +201,7 @@
   left: 0;
   right: 0;
   background: var(--SecondaryColor);
-  padding: 0.5rem 2px;
+  padding: 0.5rem 2rem;
 
   small {
     font-size: 10px;
@@ -235,7 +235,6 @@
   .footer {
     .secContent {
       .contactDiv {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
 
@@ -294,10 +293,11 @@
             }
           }
         }
-        .footerLinks{
-          .linkGroup{
-            .footerList{
-              font-size: 16px;padding: 5px 0;
+        .footerLinks {
+          .linkGroup {
+            .footerList {
+              font-size: 16px;
+              padding: 5px 0;
             }
           }
         }

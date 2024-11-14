@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import './home.scss'
 import video from '../../assets/video.mp4'
 import { CiLocationOn } from 'react-icons/ci'
@@ -13,8 +13,14 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 const Home = () => {
+  const [sliderValue, setSliderValue] = useState(0)
+
+  const handleSliderValue = (e) => {
+    setSliderValue(e.target.value)
+  }
+
   useEffect(() => {
-    Aos.init({duration:2000})
+    Aos.init({ duration: 2000 })
   }, [])
 
   return (
@@ -52,10 +58,17 @@ const Home = () => {
           <div className="priceInput">
             <div className="label_total flex">
               <label htmlFor="price">Max price:</label>
-              <h3 className="total">$5000</h3>
+              <h3 className="total">${sliderValue}</h3>
             </div>
             <div className="input flex">
-              <input type="range" max="5000" min="1000" id="price" />
+              <input
+                type="range"
+                max="5000"
+                min="1000"
+                id="price"
+                value={sliderValue}
+                onChange={handleSliderValue}
+              />
             </div>
           </div>
 
