@@ -33,10 +33,13 @@ const Footer = () => {
           </div>
 
           <div className="inputDiv flex">
+            <label htmlFor="email">Email</label>
             <input
               data-aos="fade-up"
               type="text"
               placeholder="Enter email address"
+              id='email'
+              autoComplete='required'
             />
             <button data-aos="fade-up" className="btn flex" type="submit">
               SEND <FiSend className="icon" />

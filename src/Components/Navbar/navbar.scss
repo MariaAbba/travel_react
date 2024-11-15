@@ -34,11 +34,13 @@
   cursor: pointer;
   align-items: center;
   justify-content: center;
+  
+  
 
   .icon {
     font-size: 25px;
     color: var(--PrimaryColor);
-    transform: translate(5px);
+    transform: translate(-5px);
   }
 }
 

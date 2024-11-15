@@ -41,9 +41,13 @@ const Home = () => {
 
         <div data-aos="fade-up" className="cardDiv grid">
           <div className="destinationInput">
-            <label htmlFor="city">Search Your Destination:</label>
+            <label htmlFor="destination">Search Your Destination:</label>
             <div className="input flex">
-              <input type="text" placeholder="Enter name here..." />
+              <input
+                type="text"
+                placeholder="Enter name here..."
+                id="destination"
+              />
               <CiLocationOn className="icon" />
             </div>
           </div>

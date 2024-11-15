@@ -1,4 +1,4 @@
-import React, {useState}from 'react'
+import React, { useState } from 'react'
 import './navbar.scss'
 import { MdOutlineTravelExplore } from 'react-icons/md'
 import { IoIosCloseCircle } from 'react-icons/io'
@@ -7,22 +7,20 @@ import { TbGridDots } from 'react-icons/tb'
 const Navbar = () => {
   const [active, setActive] = useState('navBar')
 
-const showNav = () => {
-setActive('navBar activeNavbar')
-}
+  const showNav = () => {
+    setActive('navBar activeNavbar')
+  }
 
-const closeNav = () => {
-setActive('navBar ')
-}
+  const closeNav = () => {
+    setActive('navBar ')
+  }
   return (
     <section className="navBarSection">
       <header className="header flex">
         <div className="logoDiv">
           <a className="logo flex" href="#">
-            <h1>
-              <MdOutlineTravelExplore className="icon" />
-              Travel.
-            </h1>
+            <MdOutlineTravelExplore className="icon" />
+            <h1>Travel.</h1>
           </a>
         </div>
 
@@ -68,8 +66,7 @@ setActive('navBar ')
             </button>
           </ul>
 
-          <div onClick={() => closeNav()}
-          className="closeNavbar">
+          <div onClick={() => closeNav()} className="closeNavbar">
             <IoIosCloseCircle className="icon" />
           </div>
         </div>

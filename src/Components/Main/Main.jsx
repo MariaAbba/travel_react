@@ -51,7 +51,7 @@ const Main = () => {
                     <p>{description}</p>
                   </div>
 
-                  <button className="btn flex">
+                  <button className="btn flex" type='button'>
                     DETAILS <BiCheckboxChecked className="icon" />
                   </button>
                 </div>

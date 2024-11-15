@@ -79,6 +79,11 @@
       gap: 1rem;
       flex-direction: column;
 
+      label {
+        position: absolute;
+  left: -99999px;
+      }
+
       input {
         width: 100%;
         padding: 0.5rem 0.6rem;
