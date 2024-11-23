@@ -4,7 +4,7 @@
 
 
 <div align="center">
-<img width="600" alt="main page" src="https://github.com/user-attachments/assets/ac3d18e6-dc76-4e58-92b8-1430dcd9d61e">
+<img width="600" alt="main page" src="https://github.com/user-attachments/assets/a8e967c4-5598-4f47-869c-45400583ccc7">
 
 </div>
 
@@ -19,11 +19,12 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scss/sass.svg" height="40" alt="sass logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="sass logo"  />
   <img width="12" />
 </div>
 
 ###
+
 
 
 
